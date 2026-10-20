@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101010">
-  <meta name="description" content="Official digital business card for Mega Safe Security Services Sdn Bhd. Contact Datuk Kevin T P Lim.">
+  <meta name="description" content="Official digital business card for Mega Safe Security Services Sdn Bhd. Contact JORDEN SIEW">
   <title>Mega Safe Security | Digital Business Card</title>
   <style>
     :root{--gold:#d8b34e;--gold2:#f4df91;--red:#d7192d;--ink:#101010;--muted:#b9b9b9}
@@ -69,14 +69,13 @@
           <div class="logo-mark"><img src="company-logo.png" alt="Mega Safe Security company logo"></div>
           <div class="company-name">MEGA SAFE<small>SECURITY SERVICES</small></div>
         </div>
-        <h2 class="person">DATUK KEVIN T P LIM</h2>
-        <div class="credentials">PGDK, ADK, JP</div>
-        <div class="role">Executive Director<br>Justice of the Peace</div>
-        <a class="mobile" href="tel:+60138883838" aria-label="Call Datuk Kevin T P Lim">☎ &nbsp;+6013-888 3838</a>
+        <h2 class="person">JORDEN SIEW</h2>
+        <div class="credentials">OPERATIONS SECURITY OFFICER </div>
+        <a class="mobile" href="tel:+60109142789" aria-label="Call JORDEN SIEW">☎ &nbsp;+6010-914 2789</a>
         <div class="rule"></div>
         <div class="details">
           <div class="detail"><span class="ico">⌖</span><span>Lot A10-2, 2nd Floor, Block A, Grand Plaza Putatan, 88200 Putatan, Sabah, Malaysia</span></div>
-          <div class="detail"><span class="ico">✉</span><a href="mailto:kevinlim9909@gmail.com">kevinlim9909@gmail.com</a></div>
+          <div class="detail"><span class="ico">✉</span><a href="mailto:mymegasafe.security@gmail.com">mymegasafe.security@gmail.com</a></div>
           <div class="detail"><span class="ico">T</span><a href="tel:+6088734222">+6088 734 222</a></div>
 
         </div>
@@ -89,7 +88,7 @@
         <div class="rule"></div>
         <div class="license"><strong>KDN Licensed Security Services Provider</strong><br>PIKM Member 0753</div>
         <div class="qr-panel">
-          <a href="whatsapp-qr.png" target="_blank" rel="noopener" aria-label="Open WhatsApp contact QR code"><img src="whatsapp-qr.png" alt="QR code provided for Datuk Kevin T P Lim's WhatsApp contact"></a>
+          <a href="whatsapp-qr.png" target="_blank" rel="noopener" aria-label="Open WhatsApp contact QR code"><img src="whatsapp-qr.png" alt="QR code provided for JORDEN SIEW's WhatsApp contact"></a>
           <div><div class="qr-title">SCAN TO CONNECT ON WHATSAPP</div><div class="qr-copy">Scan this QR code with your phone camera to open the WhatsApp contact link.</div></div>
         </div>
         <p class="foot">PROTECTION · PROFESSIONALISM · TRUST</p>
@@ -97,10 +96,10 @@
     </main>
 
     <div class="actions">
-      <a class="btn primary" id="whatsapp" href="https://wa.me/60138883838" target="_blank" rel="noopener">↗ Share via WhatsApp</a>
+      <a class="btn primary" id="whatsapp" href="https://wa.me/qr/4GTLLELZFHJIO1" target="_blank" rel="noopener">↗ Share via WhatsApp</a>
       <button class="btn gold" id="saveContact" type="button">＋ Save Contact (.VCF)</button>
-      <a class="btn" href="tel:+60138883838">☎ Call</a>
-      <a class="btn" href="mailto:kevinlim9909@gmail.com">✉ Email</a>
+      <a class="btn" href="tel:+60109142789">☎ Call</a>
+      <a class="btn" href="mailto:mymegasafe.security@gmail.com">✉ Email</a>
       <button class="btn" id="copyLink" type="button">⧉ Copy Card Link</button>
       <button class="btn" id="shareNative" type="button">⇧ Share</button>
       <button class="btn" id="printCard" type="button">⎙ Print Card</button>
@@ -110,7 +109,7 @@
   </div>
 
   <script>
-    const shareText = "MEGA SAFE SECURITY SERVICES SDN BHD\n\nDatuk Kevin T P Lim, PGDK, ADK, JP\nExecutive Director | Justice of the Peace\nMobile: +6013-888 3838\nOffice: +6088 734 222\nEmail: kevinlim9909@gmail.com\nAddress: Lot A10-2, 2nd Floor, Block A, Grand Plaza Putatan, 88200 Putatan, Sabah, Malaysia\nFax: +6088 734 223\n\nKDN Licensed Security Services Provider | PIKM Member 0753";
+    const shareText = "MEGA SAFE SECURITY SERVICES SDN BHD\n\nJORDEN SIEW, OPERATIONS SECURITY OFFICER\nMobile: +6010 914 2789\nOffice: +6088 734 222\nEmail: mymegasafe.security@gmail.com\nAddress: Lot A10-2, 2nd Floor, Block A, Grand Plaza Putatan, 88200 Putatan, Sabah, Malaysia\nFax: +6088 734 223\n\nKDN Licensed Security Services Provider | PIKM Member 0753";
     const toast = (message) => { document.getElementById("toast").textContent = message; };
     const whatsapp = document.getElementById("whatsapp");
 
@@ -118,23 +117,22 @@
       const isHosted = location.protocol === "http:" || location.protocol === "https:";
       const cardUrl = isHosted ? location.href : "";
       const message = shareText + (cardUrl ? "\n\nDigital business card: " + cardUrl : "\n\nPlease add your published digital business card link here.");
-      whatsapp.href = "https://wa.me/60138883838?text=" + encodeURIComponent(message);
+      whatsapp.href = "https://wa.me/qr/4GTLLELZFHJIO1?text=" + encodeURIComponent(message);
     }
     updateWhatsApp();
 
     document.getElementById("saveContact").addEventListener("click", () => {
       const vcard = [
         "BEGIN:VCARD", "VERSION:3.0",
-        "FN:Datuk Kevin T P Lim",
-        "N:Lim;Kevin T P;Datuk;;",
+        "FN:JORDEN SIEW",
+        "N:Lim;JORDEN SIEW (ODEN);;",
         "ORG:MEGA SAFE SECURITY SERVICES SDN BHD",
-        "TITLE:Executive Director | Justice of the Peace",
-        "TEL;TYPE=CELL,VOICE:+60138883838",
+        "TITLE:OPERATIONS SECURITY OFFICER",
+        "TEL;TYPE=CELL,VOICE:+60109142789",
         "TEL;TYPE=WORK,VOICE:+6088734222",
-        "TEL;TYPE=WORK,FAX:+6088734223",
-        "EMAIL;TYPE=WORK:kevinlim9909@gmail.com",
+        "EMAIL;TYPE=WORK:mymegasafe.security@gmail.com",
         "ADR;TYPE=WORK:;;Lot A10-2\, 2nd Floor\, Block A\, Grand Plaza Putatan;Putatan;Sabah;88200;Malaysia",
-        "NOTE:PGDK, ADK, JP. KDN Licensed Security Services Provider. PIKM Member 0753.",
+        "NOTE:KDN Licensed Security Services Provider. PIKM Member 0753.",
         "END:VCARD"
       ].join("\r\n");
       const blob = new Blob([vcard], {type:"text/vcard;charset=utf-8"});
